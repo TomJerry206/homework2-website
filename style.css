@@ -1,0 +1,99 @@
+body { 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu */
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  display: inline-block;
+  width: 80%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* COMMENT li theo yêu cầu */
+/*
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0077cc;
+}
+
+/* Main */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+main p {
+  font-size: 20px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Title */
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* nav img */
+nav img {
+  width: 10%;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* FLEX */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
